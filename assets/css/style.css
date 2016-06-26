@@ -6,6 +6,37 @@ Base on work by : Hasan Alibegic, hasan461@gmail.com
 License: Apache License v2.0
 
 */
+.col-lg-12 {
+   text-align: left;
+  
+}
+
+#home {
+  
+  color: #fff;
+  background-image: url(../img/ariana_original_800.jpeg);
+  /*
+  padding: 0;
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 100%;
+  
+  
+  */
+  background-position: top center;
+  background-repeat: no-repeat;
+  height : 600px;
+  /*background-position: top center;
+  background-size: cover;
+  
+  */
+  
+}
+
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
@@ -141,15 +172,6 @@ a:focus {
   background-color: #71be3c;
 }
 .page .heading p { margin: 20px auto 0 }
-#home {
-  padding: 0;
-  color: #fff;
-  background-image: url(../img/ariana_original_1920x1280.jpeg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height : 450px;
-}
 #home h1 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -421,9 +443,9 @@ span .c6 {
 
 
 .cropcontainer {
-    margin-top : 100px;
+    /*margin-top : 100px;*/
     background: url(../img/ariana_bw_top.jpeg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     height: 400px;
 }
